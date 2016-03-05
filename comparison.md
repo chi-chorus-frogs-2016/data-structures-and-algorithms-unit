@@ -20,4 +20,4 @@
 | contains_key?(key)                |      | O(1) |      |      |           | O(1) |      |
 | contains?(elem)                   | O(n) | O(n) | O(n) | O(n) | O(log(n)) | O(n) | O(1) |
 | each {}                           | O(n) | O(n) | O(n) | O(n) | O(n)      | O(n) | O(n) |
-| Implemented Using |  |  | FixedArray | SinglyLinkedNode *DoublyLinkedNode | BidirectionalNode | HashTable FixedArray ArrayList Tree | HashTable FixedArray ArrayList Tree |
+| Implemented Using |  |  | FixedArray | SingleRefNode *DoubleRefNode | DoubleRefNode | HashTable FixedArray ArrayList Tree | HashTable FixedArray ArrayList Tree |
