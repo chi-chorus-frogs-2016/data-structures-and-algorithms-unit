@@ -11,7 +11,7 @@
 | add_last(elem)                    |      |      | O(1) | O(1) |           |      |      |
 | add_first(elem)                   |      |      | O(n) | O(1) |           |      |      |
 | remove(elem)                      |      | O(n) | O(n) | O(n) / O(1)* | O(log(n)) | O(n) | O(1) |
-| remove_at(key/index)              |      | O(1) | O(n) | O(n) / O(1)* | O(log(n)) | O(1) |      |
+| remove_at(key/index)              |      | O(1) | O(n) | O(n) | O(log(n)) | O(1) |      |
 | remove_last                       |      |      | O(1) | O(n) / O(1)* |     |      |      |
 | remove_first                      |      |      | O(n) | O(1) |           |      |      |
 | insert_at(element, index)         |      |      | O(n) | O(n) | O(log(n)) |      |      |
