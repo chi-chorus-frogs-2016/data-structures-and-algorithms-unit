@@ -38,3 +38,7 @@ Recommended Stretch:
 
  *  [Maze Solver Challenge](../../../maze-solver-challenge)
  *  [A* Challenge](../../../a-star-challenge)
+
+ Reference:
+
+ * [Comparison Table](comparison.md)
