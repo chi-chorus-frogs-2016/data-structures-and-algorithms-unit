@@ -16,6 +16,7 @@
 | remove_first                      |      |      | O(n) | O(1) |           |      |      |
 | insert_at(element, index)         |      |      | O(n) | O(n) | O(log(n)) |      |      |
 | insert_after(elem, existing_elem) |      |      | O(n) | O(1) | O(log(n)) |      |      |
+| insert_before(elem, existing_elem)|      |      | O(n) | O(n) / O(1)* | O(log(n)) |      |      |
 | contains_key?(key)                |      | O(1) |      |      |           | O(1) |      |
 | contains?(elem)                   | O(n) | O(n) | O(n) | O(n) | O(log(n)) | O(n) | O(1) |
 | each {}                           | O(n) | O(n) | O(n) | O(n) | O(n)      | O(n) | O(n) |
